@@ -1,4 +1,4 @@
-Algoritmo "01-Guanabara"
+Algoritmo "02-Guanabara"
 
 //Aula #02 Guanabara "Primeiro projeto"
 
@@ -9,7 +9,7 @@ msg: caracter
 Inicio
 
    Escreval ("Hello World!")
-   Escreval ("Livrado da Maldição com Sucesso!")
+   Escreval ("Livrado da MaldiÃ§Ã£o com Sucesso!")
    
    msg <- "Bem-vindo!"
    Escreva(msg)
