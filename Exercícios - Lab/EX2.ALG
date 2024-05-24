@@ -5,12 +5,12 @@ Algoritmo "Ex2"
 
 Var
 
-   Nome: Caracter
+   nome: Caracter
 
 Inicio
 
       Escreval("Qual é o seu nome? ")
-      Leia(Nome)
-      Escreva("Bem-vindo, ", Nome, "!")
+      Leia(nome)
+      Escreva("Bem-vindo, ", nome, "!")
 
 Fimalgoritmo

@@ -5,14 +5,14 @@ Algoritmo "Ex7"
 
 Var
 
-  Num : Real
+  num : Real
    
 Inicio
 
       Escreva("Escolha um número: ")
-      Leia(Num)
+      Leia(num)
 
-      Escreval("O dobro de", Num, " é", (Num *2))
-      Escreval("A terça parte de", Num, " é", (Num/3))
+      Escreval("O dobro de", num, " é", (num *2))
+      Escreval("A terça parte de", num, " é", (num/3))
 
 Fimalgoritmo

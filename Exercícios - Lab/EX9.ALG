@@ -5,15 +5,15 @@ Algoritmo "Ex9"
 
 Var
 
-      Dolar, Num : Real
+      dolar, num : Real
 
 Inicio
 
       Escreva("Quantos R$ Você tem em sua carteira agora? ")
-      Leia(Num)
+      Leia(num)
       
-      Dolar <- (Num/3.45)
+      dolar <- (num/3.45)
       
-      Escreval("Com R$", Num, " Você consegue comprar: $", Dolar:6:2)
+      Escreval("Com R$", num, " Você consegue comprar: $", dolar:6:2)
 
 Fimalgoritmo

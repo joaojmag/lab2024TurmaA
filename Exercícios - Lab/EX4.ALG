@@ -5,14 +5,14 @@ Algoritmo "Ex4"
 
 Var
 
-   Num1, Num2 : Inteiro
+   num1, num2 : Inteiro
 
 Inicio
 
       Escreva("Digite um número: ")
-      Leia(Num1)
+      Leia(num1)
       Escreva("Informe o outro número: ")
-      Leia(Num2)
-      Escreval("A soma entre:", Num1, " e", Num2, " é", (Num1 + Num2))
+      Leia(num2)
+      Escreval("A soma entre:", num1, " e", num2, " é", (num1 + num2))
 
 Fimalgoritmo

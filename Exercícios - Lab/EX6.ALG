@@ -5,19 +5,19 @@ Algoritmo "Ex6"
 
 Var
 
-   Antes, Depois, Num : Inteiro
+   antes, depois, num : Inteiro
 
 
 Inicio
 
       Escreva("Escolha um número entre 0 e 1000: ")
-      Leia(Num)
+      Leia(num)
       
-      Antes <- (Num -1)
+      antes <- (num -1)
       
-      Depois <-(Num +1)
+      depois <-(num +1)
       
-      Escreval("O número escolhido foi:", Num)
+      Escreval("O número escolhido foi:", num)
       Escreval("Seu antecessor é:", antes)
       Escreval("Seu sucessor é:", depois)
       

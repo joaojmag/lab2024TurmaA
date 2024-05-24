@@ -5,19 +5,19 @@ Algoritmo "Ex5"
 
 Var
 
-   Media, Num1, Num2 : Real
-   Materia : Caracter
+   media, num1, num2 : Real
+   materia : Caracter
    
 
 Inicio
 
       Escreva("Deseja realizar a média de qual matéria? ")
-      Leia(Materia)
+      Leia(materia)
       Escreva("Informe a 1ª Nota: ")
-      Leia(Num1)
+      Leia(num1)
       Escreva("Informe a 2ª Nota: ")
-      Leia(Num2)
-      Media <- ( (Num1 + Num2) / 2)
-      Escreval("A média entre:", Num1, " e", Num2, " na matéria de ", Materia, " é", Media)
+      Leia(num2)
+      media <- ( (num1 + num2) / 2)
+      Escreval("A média entre:", num1, " e", num2, " na matéria de ", materia, " é", media)
 
 Fimalgoritmo

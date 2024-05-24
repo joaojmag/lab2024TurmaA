@@ -5,17 +5,17 @@ Algoritmo "Ex3"
 
 Var
 
-   Nome: Caracter
-   Salario: Real
+   nome: Caracter
+   salario: Real
 
 Inicio
 
       Escreval("Qual é o seu nome? ")
-      Leia(Nome)
+      Leia(nome)
       Escreval("Informe o salário: ")
-      Leia(Salario)
-      Escreval("Funcionário(a): ", Nome, ".")
-      Escreval("Salário: ", Salario, ".")
-      Escreval(Nome, " obteve um salário de: R$", Salario, " No último mês.")
+      Leia(salario)
+      Escreval("Funcionário(a): ", nome, ".")
+      Escreval("Salário: ", salario, ".")
+      Escreval(nome, " obteve um salário de: R$", salario, " No último mês.")
 
 Fimalgoritmo

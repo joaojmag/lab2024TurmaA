@@ -6,13 +6,13 @@ Algoritmo "Ex15"
 
 Var
 
-   Dias : Real
+   dias : Real
 
 Inicio
 
       Escreval("Trabalha quantos dias no mês?")
-      Leia(Dias)
+      Leia(dias)
       
-      Escreva("Ao fim de sua jornada de trabalho mensal, você receberá: R$ ", (Dias*200))
+      Escreva("Ao fim de sua jornada de trabalho mensal, você receberá: R$ ", (dias*200))
 
 Fimalgoritmo

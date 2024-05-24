@@ -5,19 +5,19 @@ Algoritmo "Ex8"
 
 Var
 
-  Num : Real
+  num : Real
 
 Inicio
 
       Escreva("Escolha uma distância em metros: ")
-      Leia(Num)
+      Leia(num)
 
-      Escreval("A distância de", Num, "m corresponde a:")
-      Escreval((Num/1000),"Km")
-      Escreval((Num/100),"Hm")
-      Escreval((Num/10),"Dam")
-      Escreval((Num*10),"Dm")
-      Escreval((Num*100),"Cm")
-      Escreval((Num*1000),"mm")
+      Escreval("A distância de", num, "m corresponde a:")
+      Escreval((num/1000),"Km")
+      Escreval((num/100),"Hm")
+      Escreval((num/10),"Dam")
+      Escreval((num*10),"Dm")
+      Escreval((num*100),"Cm")
+      Escreval((num*1000),"mm")
 
 Fimalgoritmo

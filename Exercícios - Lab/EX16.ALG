@@ -7,10 +7,11 @@ Algoritmo "Ex16"
 
 Var
 
-   DiasPerdidos: Real
+   diasPerdidos, diasDecimal: Real
+   dias, horas: Inteiro
    
-   CigarrosDiarios, MinutosDiariosPerdidos, MinutosTotaisPerdidos: Inteiro
-   AnosFumando, AnosEmDiasFumando: Inteiro
+   cigarrosDiarios,minutosDiariosPerdidos, minutosTotaisPerdidos: Inteiro
+   anosFumando,anosEmDiasFumando: Inteiro
    
    // 1 Ano = 365 Dias
    // 1 Dia = 1440 Minutos
@@ -28,14 +29,19 @@ Inicio
       Escreval("Já fumou por quantos anos?")
       Leia(AnosFumando)
 
-      MinutosDiariosPerdidos <- (CigarrosDiarios * 10) //Minutos de Vida Diários Perdidos
+      minutosDiariosPerdidos <- (cigarrosDiarios * 10) //Minutos de Vida Diários Perdidos
       
-      AnosEmDiasFumando<- (AnosFumando * 365) //Anos Fumando convertidos em Dias
+      anosEmDiasFumando<- (anosFumando * 365) //Anos Fumando convertidos em Dias
       
-      MinutosTotaisPerdidos <- (AnosEmDiasFumando * MinutosDiariosPerdidos) //Minutos de vida total perdido
+      minutosTotaisPerdidos <- (anosEmDiasFumando * minutosDiariosPerdidos) //Minutos de vida total perdido
       
-      DiasPerdidos <- (MinutosTotaisPerdidos/1440) //Convertendo os minutos fumando em dias
+      diasPerdidos <- (minutosTotaisPerdidos/1440) //Convertendo os minutos fumando em dias
 
-      Escreval("Você perdeu aproximadamente", DiasPerdidos:4:0, " Dias de sua vida fumando, NÃO FUME!")
+      dias <- Int(diasPerdidos) //Pegando o Inteiro do dia
+      diasDecimal <- (diasPerdidos - Dias) //Pegando o decimal do dia
+      horas <- int( diasDecimal * 24) //Convertendo o ddecimal de dia para horas
+
+
+      Escreval("Você perdeu aproximadamente", dias, " Dias", horas," Horas de sua vida fumando, NÃO FUME!")
 
 Fimalgoritmo

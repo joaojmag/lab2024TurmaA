@@ -7,7 +7,7 @@ Algoritmo "Ex14"
 
 Var
 
-      Km, aluguel, total : Real
+      km, aluguel, total : Real
 
 Inicio
 
@@ -18,11 +18,11 @@ Inicio
       Escreval(" ")
       
       Escreval("Quantos Km você percorreu com o veículo?")
-      Leia(Km)
+      Leia(km)
       Escreval("Por quantos dias alugou o veículo?")
       Leia(aluguel)
       
-      total <- ( (aluguel*90) + (Km*0.20) )
+      total <- ( (aluguel*90) + (km*0.20) )
 
       Escreva("O preço total a ser pago pelo uso do veículo será: R$", total )
 

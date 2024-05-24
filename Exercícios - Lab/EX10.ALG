@@ -6,19 +6,19 @@ Algoritmo "Ex10"
 
 Var
 
-      Area, Largura, Altura, Litros : Real
+      area, largura, altura, litros : Real
 
 Inicio
 
       Escreva("Qual a Largura de sua parede? ")
-      Leia(Largura)
+      Leia(largura)
       Escreva("Qual a Altura de sua parede? ")
-      Leia(Altura)
+      Leia(altura)
       
-      Area <- (Largura * Altura)
-      Litros <- Area/2)
+      area <- (largura * altura)
+      litros <- (area/2)
       
-      Escreva("A área de sua parede é de:", Area, " m²")
-      Escreva("Você irá precisar de:", Litros, " Litros de Tinta.")
+      Escreva("A área de sua parede é de:", area, " m²")
+      Escreva("Você irá precisar de:", litros, " Litros de Tinta.")
 
 Fimalgoritmo
