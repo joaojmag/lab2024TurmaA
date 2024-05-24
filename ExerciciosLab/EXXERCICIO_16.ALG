@@ -1,15 +1,25 @@
-algoritmo "exxercicio_16"
+algoritmo "exercicio_16"
 var
-   tempoPerdido, anosPerdidos: inteiro
-   cigarros, dias, anos: Inteiro
+
+   minutosPerdidos, tempoFinal, dias, diasInt, horas: Real
+   tempoDiarioFumado, diasPerdidos: inteiro
+   cigarros, anos: Inteiro
+   
 inicio
+
       Escreva("Quantos cigarros você fuma por dia?: ")
       Leia(cigarros)
       Escreva("Por quantos anos você fuma?: ")
       Leia(anos)
-      tempoPerdido <- cigarros*10
-      anosPerdidos <- tempoPerdido*365
-      Escreval("A cada cigarro que você fuma, você perde 10 min da sua vida!")
-      Escreval("Você já perdeu, ",  anosPerdidos, " minutos de vida, equivalente á", anosPerdidos/24:5:0, " dias")
+
+      tempoDiarioFumado <- cigarros*10
+      diasPerdidos <- tempoDiarioFumado*365
+      minutosPerdidos <- diasPerdidos*anos
+      tempoFinal <- minutosPerdidos/1440  // 1440 igual a 1 dia em minutos
+      diasInt <- tempoFinal-int(tempoFinal)
+      horas <- diasInt*24
+      
+      Escreval("Você já perdeu, ",int(tempoFinal), " dias de vida e", int(horas), " e horas")
       Escreva("Não fume, isso acaba com você!")
+      
 fimalgoritmo
