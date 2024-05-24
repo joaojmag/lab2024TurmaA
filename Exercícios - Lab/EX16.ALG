@@ -25,7 +25,7 @@ Inicio
       Escreval(" ")
 
       Escreval("Quantos cigarros você costuma fumar por dia?")
-      Leia(CigarrosDiarios)
+      Leia(cigarrosDiarios)
       Escreval("Já fumou por quantos anos?")
       Leia(AnosFumando)
 
