@@ -7,8 +7,14 @@ Algoritmo "Ex16"
 
 Var
 
-   AnosFumados, CigarrosDiarios, Diastotalfumados, DiasTotalMinutos, VidaPerdidaDiaria, TotalPerdido, DiaTotalPerdido : Real
-
+   DiasPerdidos: Real
+   
+   CigarrosDiarios, MinutosDiariosPerdidos, MinutosTotaisPerdidos: Inteiro
+   AnosFumando, AnosEmDiasFumando: Inteiro
+   
+   // 1 Ano = 365 Dias
+   // 1 Dia = 1440 Minutos
+   
 Inicio
 
       Escreval("_______________________")
@@ -20,18 +26,16 @@ Inicio
       Escreval("Quantos cigarros você costuma fumar por dia?")
       Leia(CigarrosDiarios)
       Escreval("Já fumou por quantos anos?")
-      Leia(AnosFumados)
+      Leia(AnosFumando)
 
-      VidaPerdidaDiaria <- (CigarrosDiarios * 10) //Minutos de Vida Diários Perdidos
+      MinutosDiariosPerdidos <- (CigarrosDiarios * 10) //Minutos de Vida Diários Perdidos
       
-      Diastotalfumados<- (AnosFumados * 365) //Dias Totais Nestes Anos Fumando
+      AnosEmDiasFumando<- (AnosFumando * 365) //Anos Fumando convertidos em Dias
       
-      DiasTotalMinutos <- (Diastotalfumados * 1440) //Anos em dias fumados convertidos em minutos
+      MinutosTotaisPerdidos <- (AnosEmDiasFumando * MinutosDiariosPerdidos) //Minutos de vida total perdido
       
-      TotalPerdido <- (VidaPerdidaDiaria * DiasTotalMinutos) //Minutos de vida total perdido
-      
-      DiaTotalPerdido <- (TotalPerdido/1440)
+      DiasPerdidos <- (MinutosTotaisPerdidos/1440) //Convertendo os minutos fumando em dias
 
-      Escreval("Você perdeu aproximadamente ", DiaTotalPerdido:5:0, " Dias de vida fumando, NÃO FUME!")
+      Escreval("Você perdeu aproximadamente", DiasPerdidos:4:0, " Dias de sua vida fumando, NÃO FUME!")
 
 Fimalgoritmo
