@@ -23,8 +23,8 @@ inicio
        Escreval ("O preço final da sua compra foi: R$", valor - descontoH)
 
    outrocaso
-       Escreva ("Erro, tente novamente")
-
+       Escreval ("Número inválido!")
+       Escreva  ("Escolha entre 1 e 2")
    fimEscolha
 
 
