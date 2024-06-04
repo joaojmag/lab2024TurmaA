@@ -19,10 +19,10 @@ Senao
 FimSe
  valorFinal <- valordaCompra - desconto
 
-Escreva("Cliente: ", nome)
-Escreva("Valor das compras: R$", valordaCompra)
-Escreva("Valor do desconto: R$", desconto)
-Escreva("Valor final com desconto: R$", valorFinal)
+Escreval("Cliente: ", nome)
+Escreval("Valor das compras: R$", valordaCompra)
+Escreval("Valor do desconto: R$", desconto)
+Escreval("Valor final com desconto: R$", valorFinal)
 
 
 Fimalgoritmo
