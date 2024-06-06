@@ -14,7 +14,6 @@ Algoritmo "Ex36"
 Var
 
    points, horasAtv: Inteiro
-   valorGanho: Real
 
 inicio
 
