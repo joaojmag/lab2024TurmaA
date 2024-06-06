@@ -17,9 +17,9 @@ inicio
 
       TRI <- (L1 < L2 + L3) e (L2 < L1 + L3) e (L3 < L1 + L2)
       EQ <- (L1 = L2) e (L2 = l3)
-      IS <- (L1 = L2) ou (L2 = L3) ou (L3 = L1)
+      IS <- (L1 = L2) e (L3 <> L1) e (L3 <> L2) ou (L2 = L3) e (L1 <> L2) e (L1 <> L3) ou (L3 = L1) e (L2 <> L1) e (L2 <> L3)
       ES <- (L1<> L2) e (L2 <> L3) e (L1 <> L3)
-      HIPOTENUSA <- (L1 > L2) e (L2 > L3) ou (L2 > L1) e (L2 > L3) ou (L3 > L2) e (L3 > L1)
+      HIPOTENUSA <- (L1*L1 = L2*L2 + L3*L3) ou (L2*L2 = L1*L1 + L3*L3) ou (L3*L3 = L1*L1 + L2*L2)
 
       se (TRI = verdadeiro) entao
          Escreval ("É UM TRIÃNGULO.")

@@ -1,4 +1,4 @@
-algoritmo "guanabara_07"
+algoritmo "guanabara_05.1"
 var
 
    ano, idade, nascimento: inteiro
@@ -14,7 +14,7 @@ inicio
       
       Escreval("Em ", ano, " voce terá ", idade, " anos.")
       
-      se (idade>= 18) entao
+      se (idade>= 21) entao
          Escreva("e já será maior de idade")
       fimse
       
