@@ -8,8 +8,8 @@ inicio
 
       Escreval("BEM VINDO AO ALUGUEL DE CARROS AUTOCAR.")
       Escreval("ESCOLHA O MELHOR MODELO PARA VOCÊ.")
-      Escreval("[1] CARRO POPULAR")
-      Escreval("[2] CARRO DE LUXO")
+      Escreval("[1] CARRO POPULAR R$90 O DIA")
+      Escreval("[2] CARRO DE LUXO R$150 O DIA")
       Leia(carro)
       Escreval("QUANTOS KM VOCÊ PRETENDE DIRIGIR: ")
       Leia(km)
