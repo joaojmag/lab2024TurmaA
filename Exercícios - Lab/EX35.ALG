@@ -35,7 +35,7 @@ inicio
       EscrevaL (" ")
       Leia(carroEscolhido)
       
-      EscrevaL("")
+      Se (carroEscolhido = 1) ou (carroEscolhido = 2) entao
 
       Escreva(" Pretende alugar o veículo por quantos dias? ")
       Leia(diasViagem)
@@ -44,7 +44,7 @@ inicio
       Escreva(" Qual será a distância de sua viagem? (Km): ")
       Leia(distancia)
       EscrevaL("")
-      
+
       Escolha carroEscolhido
 
               Caso 1
@@ -64,11 +64,13 @@ inicio
                        EscrevaL(" O preço desta viagem será de: R$", custoViagem:6:2,".")
                    FimSe
 
-              OutroCaso
-              
-                   limpatela
-                   EscrevaL(" Escolha de veículo inválida! Reinicie o programa e tudo digite novamente!")
-                   fimAlgoritmo
       FimEscolha
-
+      
+      Senao
+          limpatela
+          EscrevaL(" Escolha de veículo inválida! Reinicie o programa e digite novamente!")
+          fimAlgoritmo
+       
+      FimSe
+         
 fimalgoritmo
