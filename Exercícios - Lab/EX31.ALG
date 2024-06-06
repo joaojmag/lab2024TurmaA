@@ -77,27 +77,27 @@ inicio
       
          EscrevaL("Empate! Jogador Nº1 jogou: ", player1, ". Jogador Nº2 jogou: ", player2, ".")
       Senao
-           Se (player1 = "Pedra" =) e (player2 = "Tesoura") entao
+           Se (player1 = "Pedra") e (player2 = "Tesoura") entao
            
               EscrevaL("Jogador Nº1 Ganhou! Pedra ganha de Tesoura.")
            Senao
-                Se (player1 = "Pedra" =) e (player2 = "Papel") entao
+                Se (player1 = "Pedra") e (player2 = "Papel") entao
                 
                    EscrevaL("Jogador Nº2 Ganhou! Papel ganha de Pedra.")
                 Senao
-                     Se (player1 = "Papel" =) e (player2 = "Tesoura") entao
+                     Se (player1 = "Papel") e (player2 = "Tesoura") entao
 
                         EscrevaL("Jogador Nº2 Ganhou! Tesoura ganha de Papel.")
                      Senao
-                          Se (player1 = "Papel" =) e (player2 = "Pedra") entao
+                          Se (player1 = "Papel") e (player2 = "Pedra") entao
 
                              EscrevaL("Jogador Nº1 Ganhou! Papel ganha de Pedra.")
                           Senao
-                               Se (player1 = "Tesoura" =) e (player2 = "Papel") entao
+                               Se (player1 = "Tesoura") e (player2 = "Papel") entao
 
                                   EscrevaL("Jogador Nº1 Ganhou! Tesoura ganha de Papel.")
                                Senao
-                                    Se (player1 = "Tesoura" =) e (player2 = "Pedra") entao
+                                    Se (player1 = "Tesoura") e (player2 = "Pedra") entao
 
                                        EscrevaL("Jogador Nº2 Ganhou! Pedra ganha de Tesoura.")
                                     Senao
