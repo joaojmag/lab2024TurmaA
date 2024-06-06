@@ -1,9 +1,9 @@
 algoritmo "exercicio_30"
 
 var
-   h, a, b: Real
+
    L1, L2, L3: Real
-   TRI, EQ, ES, IS: Logico
+   TRI, EQ, ES, IS, HIPOTENUSA: Logico
 
 inicio
 
@@ -19,13 +19,14 @@ inicio
       EQ <- (L1 = L2) e (L2 = l3)
       IS <- (L1 = L2) ou (L2 = L3) ou (L3 = L1)
       ES <- (L1<> L2) e (L2 <> L3) e (L1 <> L3)
+      HIPOTENUSA <- (L1 > L2) e (L2 > L3) ou (L2 > L1) e (L2 > L3) ou (L3 > L2) e (L3 > L1)
 
       se (TRI = verdadeiro) entao
-         Escreval ("É UM TRIÃNGULO")
+         Escreval ("É UM TRIÃNGULO.")
       senao
-         Escreval("NÃO É UM TRIÂNGULO")
+         Escreval("NÃO É UM TRIÂNGULO.")
       fimse
-      
+
       se (EQ = verdadeiro) e (TRI = verdadeiro) entao
          Escreval("É UM TRIANGULO EQUILATERO.")
       fimse
@@ -38,28 +39,9 @@ inicio
          Escreval("É UM TRIANGULO ISÓSCELES.")
       fimse
       
-      se (L1 > L2) e (L2 > L3)entao
-         h = L1
-         a = L2
-         b = L3
-      senao
-        se (L2 > L1) e (L2 > L3)entao
-           h= L2
-           a = L1
-           b = L3
-             senao
-               se (L3 > L2) e (L3 > L1) entao
-               h = L3
-               a = L2
-               b = L1
-                  fimse
-               fimse
-            fimse
-        fimse
-      
-      se (h*h = (a*a + b*b)) entao
+      se (HIPOTENUSA = verdadeiro) e (TRI = verdadeiro) entao
       Escreval("É UM TRIANGULO RETANGULO.")
       fimse
-      
+
 
 fimalgoritmo
