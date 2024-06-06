@@ -29,7 +29,7 @@ Inicio
                    escreva ("Você pagará: R$",(90*dias)+(km*0.1))
                 fimse
            fimse
-           
+
          caso 2
            se (km<=200) entao
               escreva("Você pagará: R$",(150*dias)+(km*0.3))
