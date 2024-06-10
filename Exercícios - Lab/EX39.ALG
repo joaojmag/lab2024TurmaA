@@ -1,7 +1,7 @@
-Algoritmo "Ex38"
+Algoritmo "Ex39"
 
-//38) Escreva um programa que mostre na tela a seguinte contagem:
-//6 7 8 9 10 11 Acabou!
+//39) Faça um algoritmo que mostre na tela a seguinte contagem:
+//10 9 8 7 6 5 4 3 Acabou!
 
 Var
    contador: Inteiro
@@ -10,15 +10,15 @@ inicio
 
       EscrevaL (" ___________________________" )
       EscrevaL ("|                           |")
-      EscrevaL ("| Contador 6 a 11 com While |")
+      EscrevaL ("| Contador 10 a 3 com While |")
       EscrevaL ("|___________________________|")
       EscrevaL (" ")
 
-      contador <- 6
+      contador <- 10
 
-      Enquanto (contador <= 11 ) faca
+      Enquanto (contador >= 3 ) faca
                EscrevaL(contador)
-               contador <- contador + 1
+               contador <- contador - 1
       FimEnquanto
 
       EscrevaL("")
