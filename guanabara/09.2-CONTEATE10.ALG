@@ -7,8 +7,6 @@ contador:inteiro
 Inicio
 //pratica 02 --> contar de 10-0
 
-    limpatela
-
     Escreval ("Agora vamos fazer o contrario, 10-0:")
 
     contador <- 10
