@@ -41,43 +41,40 @@ Inicio
   escreval (" ")
 
   Se (jogada1=jogada2) entao
-     escreva ("Vocês empataram")
+     escreva ("Vocês empataram.")
      
   Senao
 
   // PRIMEIRO JOGADOR GANHANDO
   
        se (jogada1=papel) e (jogada2=pedra) entao
-          escreva ("Jogador1 WINNER")
+          escreva ("Jogador1 WINNER!")
 
        senao
             se (jogada1=pedra) e (jogada2=tesoura) entao
-               escreva ("Jogador1 WINNER")
+               escreva ("Jogador1 WINNER!")
 
             senao
                  se (jogada1=tesoura) e (jogada2=papel) entao
-                    escreva ("Jogador1 WINNER")
+                    escreva ("Jogador1 WINNER!")
                  senao
   // SEGUNDO JOGADOR GANHANDO
                     se(jogada2=papel) e (jogada1=pedra) entao
-                      escreva ("Jogador2 WINNER")
+                      escreva ("Jogador2 WINNER!")
 
                     senao
                       se (jogada2=pedra) e (jogada1=tesoura) entao
-                         escreva ("Jogador2 WINNER")
+                         escreva ("Jogador2 WINNER!")
 
                       senao
                          se (jogada2=tesoura) e (jogada1=papel) entao
-                            escreva ("Jogador2 WINNER")
+                            escreva ("Jogador2 WINNER!")
                          fimse
                       fimse
                     fimse
                  fimse
             fimse
        fimse
-  fimse
-
-       
   FimSe
 
 Fimalgoritmo
