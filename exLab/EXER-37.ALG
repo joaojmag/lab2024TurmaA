@@ -38,12 +38,12 @@ Inicio
               se (anos>15) e (anos<=20) entao
                  escreva ("Seu salário será: R$",(salario*1.13))
               senao
-                   se (anos<20) entao
+                   se (anos>20) entao
                       escreva ("Seu salário será: R$", (salario*1.25))
                    fimse
               fimse
          fimse
-
+       fimescolha
 
    Senao
        limpatela
