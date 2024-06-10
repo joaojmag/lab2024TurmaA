@@ -17,11 +17,11 @@ inicio
       contador <- 6
       EscrevaL(" A soma entre:")
       
-      Enquanto ( contador <= 99 ) faca
+      Enquanto ( contador <= 100 ) faca
       
                soma <- soma + contador
                Escreva(contador, ", ")
                contador <- contador + 2
       FimEnquanto
-      Escreva("é: " , 100 + soma)
+      Escreva("é: " , soma)
 fimalgoritmo
