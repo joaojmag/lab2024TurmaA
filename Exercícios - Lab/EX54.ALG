@@ -24,10 +24,10 @@ inicio
 
       Enquanto (contador <= 7 ) faca
 
-         Escreva(" Insira a Altura da", contador, "º Pessoa: ")
+         Escreva(" Insira a Altura (m) da", contador, "º Pessoa: ")
          Leia(altura)
          Escreva(" ")
-         Escreva(" Insira o Peso da", contador, "º Pessoa: ")
+         Escreva(" Insira o Peso (Kg) da", contador, "º Pessoa: ")
          Leia(peso)
 
          contador <- contador + 1
@@ -55,7 +55,7 @@ inicio
       media <- ( media / 7 )
 
       EscrevaL("")
-      EscrevaL(media:3:2, " É a média da altura de todas as pessoas. " )
+      EscrevaL(media:3:2, "m É a média da altura de todas as pessoas. " )
       EscrevaL(mais90kg, " Pessoas pesam mais de 90Kg. " )
       EscrevaL(menos50kg, " Pessoas pesam menos de 50Kg e tem menos de 1,60m. " )
       EscrevaL(mais100kg, " Pessoas pesam mais de 100Kg e tem mais de 1,90m. " )
