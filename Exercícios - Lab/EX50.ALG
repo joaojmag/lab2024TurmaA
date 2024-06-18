@@ -19,23 +19,31 @@ inicio
 
       Escreva(" Os Números Gerados foram:")
       Repita
-            gerado <- randi(20) + 1
+            gerado <- randi(10) + 1
             Escreva(gerado)
 
-            Se (gerado % 3 = 0) entao
+            Se (gerado % 3 = 0) e ( gerado > 5 ) entao
 
                divTres <- divTres + 1
+               maiorCinco <- maiorCinco + 1
                cont <- cont + 1
 
             Senao
             Se ( gerado > 5 ) entao
-            
+
                  maiorCinco <- maiorCinco + 1
                  cont <- cont + 1
                  
             Senao
+            Se ( gerado % 3 = 0 ) entao
+
+                 divTres <- divTres + 1
                  cont <- cont + 1
                  
+            Senao
+                 cont <- cont + 1
+
+            FimSe
             FimSe
             FimSe
 
@@ -44,5 +52,5 @@ inicio
       EscrevaL("")
       EscrevaL (maiorCinco, " dos números gerados são maiores que 5!")
       EscrevaL (divTres, " dos números gerados são números divisíveis por 3!")
-
+      EscrevaL (cont)
 fimalgoritmo
