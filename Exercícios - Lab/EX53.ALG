@@ -22,12 +22,19 @@ inicio
 
       Repita
       
+      EscrevaL(" ")
       EscrevaL("Qual o seu Gênero? ")
       Escreva("M para Masculino, F para Feminino: ")
       Leia(sexo)
-
+      
+      Se (sexo <> "F") e (sexo <> "f") e (sexo <> "M") e (sexo <> "m") entao
+          EscrevaL(" ")
+          EscrevaL("Sexo Inválido informado, Preencha seu sexo novamente!")
+      FimSe
+      
       Se (sexo = "F") ou (sexo = "f") entao
 
+          EscrevaL(" ")
           Escreva("Qual a sua idade? ")
           Leia(idadeF)
           
@@ -43,6 +50,7 @@ inicio
 
            Se (sexo = "M") ou (sexo = "m") entao
 
+               EscrevaL(" ")
                Escreva("Qual a sua idade? ")
                Leia(idadeM)
 
@@ -76,7 +84,6 @@ inicio
           mediaM <- ( mediaM / mulher )
       
           EscrevaL("")
-          EscrevaL (homem, " Homens foram cadastrados! ")
           EscrevaL (mulher, " Mulheres foram cadastradas! ")
           EscrevaL (mediaM:3:0, " É a média de idade das mulheres. ")
           EscrevaL (mulherPlus20, " Mulheres tem mais de 20 anos! ")
@@ -89,7 +96,6 @@ inicio
 
           EscrevaL("")
           EscrevaL (homem, " Homens foram cadastrados! ")
-          EscrevaL (mulher, " Mulheres foram cadastradas! ")
           EscrevaL (mediaH:3:0, " É a média de idade dos homens. ")
 
       FimSe
