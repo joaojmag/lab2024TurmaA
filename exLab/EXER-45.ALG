@@ -3,8 +3,6 @@ Algoritmo "Exer-45"
 Var
  valor, final, salto: inteiro
 
-
-
 Inicio
 
       Escreval ("Vamos fazer uma contagem:")
@@ -14,19 +12,26 @@ Inicio
       leia (final)
       escreva  ("Qual valor do salto: ")
       leia (salto)
-      
-      enquanto  (final <= valor) faca
-                escreval (valor)
-                valor <- valor - salto
-      fimEnquanto
-      
-      
-      enquanto (valor <=final) faca
-               escreval (valor)
-               valor <- valor + salto
-      fimEnquanto
-      
-      
+
+      se (valor <> final) entao
+         enquanto  (final <= valor) faca
+                   escreval (valor)
+                   valor <- valor - salto
+         fimEnquanto
+
+         enquanto (valor <=final) faca
+                  escreval (valor)
+                  valor <- valor + salto
+         fimEnquanto
+         
+       senao
+         escreval ("Os valores são iguais", valor)
+
+
+
+
       escreva  ("Acabou!")
+
+
 
 Fimalgoritmo
