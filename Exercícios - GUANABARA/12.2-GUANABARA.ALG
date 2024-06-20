@@ -1,6 +1,6 @@
-Algoritmo "12.1-GUANABARA"
+Algoritmo "12.2-GUANABARA"
 
-//Aula #12.1 Guanabara "Par ou Impar Procedimento"
+//Aula #12.2 Guanabara "Par ou Impar Procedimento"
 
 var
    num: Inteiro
