@@ -21,11 +21,11 @@ inicio
       Repita
             Escreva("Digite a Idade desta pessoa: ")
             Leia(idade)
-
+            cont <- cont + 1
+            
                Se ( idade > 18 ) entao
 
                   mais18 <- mais18 + 1
-                  cont <- cont + 1
                   media <- media + idade
                   
                   Se ( idade > maior ) entao
@@ -36,7 +36,6 @@ inicio
                     Se ( idade < 5 ) entao
 
                         menos5 <- menos5 + 1
-                        cont <- cont + 1
                         media <- media + idade
                         
                     Se ( idade > maior ) entao
@@ -45,10 +44,8 @@ inicio
 
                Senao
                     Se ( idade > 5 ) e ( idade < 18 ) entao
-
-                        cont <- cont + 1
                         media <- media + idade
-
+                        
                     Se ( idade > maior ) entao
                        maior <- idade
                   FimSe
@@ -57,8 +54,6 @@ inicio
                FimSe
                FimSe
       Ate( cont >= 10 )
-
-
 
       media <- ( media / 10)
 
