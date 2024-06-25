@@ -7,7 +7,7 @@ mulher, homem, mulherVinte: inteiro
 Inicio
    contador <- 1
    EscrevaL ("Vamos cadastrar algumas pessoas:")
-   Enquanto (contador <= 3) faca
+   Enquanto (contador <= 5) faca
       escreval ("Qual ", contador,"° idade: ")
       leia (idade)
       escreval (" Qual seu gênero: ")
