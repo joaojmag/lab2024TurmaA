@@ -13,45 +13,34 @@ pedra<-1
 papel<-2
 tesoura<-3
 
+se (j1=pedra)e(j2=pedra) ou (j1=papel)e(j2=papel)ou(j1=tesoura)e(j2=tesoura)entao
+   Escreva("EMPATE!!")
+   fimse
 
 se(j1=pedra)e(j2=papel)entao
-Escreva("vitória do jogador dois!!")
-senao
+   Escreva("vitória do jogador numero dois!!")
+   fimse
+
 se(j1=papel)e(j2=pedra)entao
-Escreva("a vitória é do jogador numero um!!")
-fimse
-se (j1=pedra)e(j2=pedra)entao
-Escreva("EMPATE!!")
-fimse
-fimse
+   Escreva("vitória do jogador numero um!!")
+   fimse
 
 se(j1=tesoura)e(j2=pedra)entao
-Escreva("vitória do jogador numero dois!!")
-senao
+   Escreva("vitória do jogador numero dois!!")
+   fimse
+
 se(j1=pedra)e(j2=tesoura)entao
-Escreva("vitória do jogador numero um!!")
-fimse
-se(j1=papel)e(j2=papel)entao
-Escreva("EMPATE!!")
-fimse
-fimse
+   Escreva("vitória do jogador numero um!!")
+   fimse
+
+se(j1=papel)e(j2=tesoura)entao
+   Escreva("vitória do jogador numero dois!!")
+   fimse
 
 se(j1=tesoura)e(j2=papel)entao
-Escreva("vitória do jogador numero um!!")
-senao
-se(j1=papel)e(j2=tesoura)entao
-Escreva("vitória do jogador numero dois!!")
-fimse
-se (j1=tesoura)e(j2=tesoura)entao
-Escreva("EMPATE!!")
-fimse
-fimse
-
-
-
-
-
-
-
+   Escreva("vitória do jogador numero um!!")
+   fimse
+   
+   
 fimalgoritmo
 
