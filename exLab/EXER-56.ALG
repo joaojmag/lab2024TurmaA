@@ -28,9 +28,7 @@ inicio
          fimSe
    fimEnquanto
 
-   se (valor<>1111) ou (resposta = "s" ) ou  (resposta= "n") entao
       escreva ("A soma dos valores digitados é: ",soma)
-   fimSe
 
 
 fimalgoritmo
