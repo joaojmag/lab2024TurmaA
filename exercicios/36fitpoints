@@ -1,0 +1,28 @@
+algoritmo "semnome"
+var
+hora,pontos,dinheiro:real
+inicio
+Escreval("OLÁ, BEM VINDO AO FIT POINTS!")
+Escreval("------------------------------")
+Escreval("APENAS ESCREVA QUANTAS HORAS VOCÊ SE EXERCITOU, E MOSTRAREMOS QUANTOS PONTOS E DINHEIRO VOCÊ PODE RESGATAR!")
+Escreval("-------------------------------------------------------------------------------------------------------------")
+Escreval("quantas horas você se exercitou?:")
+Leia(hora)
+pontos<-(2*hora)
+      se (hora<=10) entao
+      Escreval("você recebeu o total de pontos:",pontos)
+      Escreva("você esta apto a receber R$:",pontos*0.5)
+      fimse
+ se(hora>10)e(hora<=20)entao
+ pontos<-(5*hora)
+ Escreval("você recebeu o total de pontos:",pontos)
+ Escreva("você esta apto a receber R$:",pontos*0.5)
+ fimse
+   se(hora>20)entao
+   pontos<-(10*hora)
+   Escreval("você recebeu o total de pontos:",pontos)
+ Escreva("você esta apto a receber R$:",pontos*0.5)
+ fimse
+
+
+fimalgoritmo
