@@ -1,0 +1,28 @@
+algoritmo "Soma."
+
+var
+NUM_ALEAT,por3,cinco:inteiro
+
+
+inicio
+
+
+
+ aleatorio 0,10
+ leia(NUM_ALEAT)
+
+  aleatorio off
+   se (NUM_ALEAT % 3 = 0)entao
+     por3 <- por3 +1
+senao
+    se(NUM_ALEAT >=5)entao
+   cinco <- cinco +1
+FimSe
+ FimSe
+
+ escreval()
+
+
+ escreval(por3  ,  cinco)
+fimalgoritmo
+
