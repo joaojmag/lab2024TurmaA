@@ -15,6 +15,9 @@ inicio
       Escreval("MÍNIMO 2 HOMENS E 2 MULHERES.")
       Escreval("------------------------------")
 
+      menorMas <- 999
+      menorFem <- 999
+
       resp <- "S"
       Enquanto (resp = "S") faca
                Escreva("DIGITE SEU SEXO: ")
@@ -31,7 +34,7 @@ inicio
                      maiorFem <- idadeF
                   fimse
                   
-                  se (idadeF < maiorFem) entao
+                  se (idadeF < menorFem) entao
                      menorFem <- idadeF
                   fimse
                   
@@ -51,7 +54,7 @@ inicio
                         maiorMas <- idadeM
                      fimse
                      
-                     se (idadeM < maiorMas) entao
+                     se (idadeM < menorMas) entao
                         menorMas <- idadeM
                      fimse
 
