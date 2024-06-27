@@ -90,7 +90,13 @@ inicio
 
           EscrevaL("")
           EscrevaL (maiorIdade, " É a maior idade lida. ")
-          EscrevaL (homem, " Homens foram cadastrados! ")
+
+          Se ( homem < 2 ) entao
+             EscrevaL (homem, " Homem foi cadastrados! ")
+          Senao
+               EscrevaL (homem, " Homens foram cadastrado! ")
+          FimSe
+
           EscrevaL (mulherJovem, " É a idade da mulher mais jovem! ")
           EscrevaL (mediaH:3:0, " É a média de idade dos homens. ")
 
