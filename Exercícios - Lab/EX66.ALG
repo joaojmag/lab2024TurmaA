@@ -37,6 +37,5 @@ Inicio
            EscrevaL(num, " x", tabu, " =", resul)
            
       FimPara
-      
 
 fimalgoritmo
