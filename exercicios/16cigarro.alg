@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 algoritmo "semnome"
 var
 cigarros,anos,minutosperdidos,dias,horainteira,tempoperdido:real
@@ -26,3 +27,33 @@ Escreval("dias perdidos",int( diasperdidos))
 
 Escreval("horas perdidas:",int(horas))
 Escreva("minutos perdidos:",int(minuto))
+=======
+algoritmo "semnome"
+var
+cigarros,anos,minutosperdidos,dias,horainteira,tempoperdido:real
+minutos,mindeumdia:real
+diasperdidos,horas,minuto:real
+
+inicio
+Escreva("quantos cigarros você fuma por dia:")
+Leia(cigarros)
+Escreva("há quantos anos você fuma:")
+Leia(anos)
+minutos<-60
+
+minutosperdidos<-10
+dias<-365
+horainteira<-24
+tempoperdido<-dias*minutosperdidos
+mindeumdia<-horainteira*minutos
+diasperdidos<-tempoperdido/mindeumdia
+
+ horas <- (diasperdidos-int(diasperdidos) ) *horainteira
+  minuto<-(horas-int(horas))*minutos
+
+
+Escreval("dias perdidos",int( diasperdidos))
+
+Escreval("horas perdidas:",int(horas))
+Escreva("minutos perdidos:",int(minuto))
+>>>>>>> ee906b2172f9d5839905f351d572140fc50b04a6
