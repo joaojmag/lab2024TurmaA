@@ -18,7 +18,7 @@ inicio
 
    escreval (" ANALISANDO DADOS ALGUMAS PESSOAS:   ")
    enquanto (resposta= "s") faca
-      escreval  ("Digite a ",contador, "° nome: ")
+      escreval  ("Digite o ",contador, "° nome: ")
       leia (nome)
       escreval ("Qual sua idade? ")
       leia (idade)
