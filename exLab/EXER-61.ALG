@@ -5,7 +5,7 @@ contador: inteiro
 
 Inicio
    contador <- 0
-   escreval ("FAZENDO COMTAGEM USANDO 'FAÇA':")
+   escreval ("FAZENDO COMTAGEM USANDO 'REPITA':")
   repita
       contador <- contador + 3
       escreval (contador)
