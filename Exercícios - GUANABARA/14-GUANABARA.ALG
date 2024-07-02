@@ -26,10 +26,15 @@ Inicio
       Para i <- 1 ate 7 faca
            Escreva("Digite o", i, "º Valor: ")
            Leia(val[i])
-           
+      FimPara
+      
+      Para i <- 1 ate 7 faca
+      
            Se ( val[i] % 2 = 0 ) entao
               numsPar <- numsPar + 1
+              EscrevaL("Valor PAR na posição:", i)
            FimSe
+           
       FimPara
       
       EscrevaL(" ")
