@@ -5,7 +5,7 @@ contador, valor: inteiro
 posicao: vetor[1..10] de inteiro
 
 Inicio
-   escreval ("VETORES")
+   escreval ("VETORES - CONTAGEM REGRESSIVA")
    valor <- 10
    para contador de 1 ate 10 faca
       valor <- valor - 1
