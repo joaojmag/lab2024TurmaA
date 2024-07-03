@@ -2,7 +2,7 @@ Algoritmo "Exer-60"
 
 var
 contador: inteiro
-idade, genero, mulher, homem: inteiro
+idade, genero: inteiro
 maisVelha, mulherJovem, menos18, homem30: inteiro
 media,soma: real
 resposta, nome, nomeVelha, nomeJovem: caractere
@@ -30,18 +30,17 @@ inicio
       se (genero=1) ou (genero=2) entao
          Escolha genero
             caso 1
-               mulher <- mulher +1
                se (idade < mulherJovem) entao
                   mulherJovem <- idade
                   nomeJovem <- nome
                fimse
                
                se (idade <18) entao
-                  menos18 <- mulher
+                  menos18 <- menos18 + 1
                fimse
                
             caso 2
-               homem <- homem + 1
+               homem <- homem +1
                se (idade > 30) entao
                   homem30 <- homem
                fimse
@@ -85,8 +84,10 @@ inicio
    fimse
    escreval ("A média de idade do grupo foi: ", media:5:2)
 
-   se (homem <> 0) entao
+   se (homem30 <> 0) entao
       escreval (homem30, " homens tem mais de 30 anos")
+   senao
+      escreval ("Nenhum homem tem mais de 30 anos")
    fimse
 
 
