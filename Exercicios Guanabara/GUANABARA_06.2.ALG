@@ -20,6 +20,13 @@ inicio
               Escreval("Abaixo do Peso")
            senao
                 se (IMC >= 18.5) e (IMC < 25) entao
+                   Escreval("Parabens! Voce esta no seu peso ideal")
+                senao
+                     Escreva("Você nao esta na faixa de peso ideal")
+                fimse
+           fimse
+      fimse
+                   
                 
                 
 
