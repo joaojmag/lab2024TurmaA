@@ -4,8 +4,7 @@ Algoritmo "EX90"
 //valores para um procedimento Somador() que vai calcular e mostrar a soma entre
 //eles.
 
-var
-   i : Inteiro
+vars
    soma : Inteiro
 
 //Procedimentos

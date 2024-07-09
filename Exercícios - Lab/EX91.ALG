@@ -6,7 +6,6 @@ Algoritmo "EX91"
 //informando essa característica.
 
 var
-   i : Inteiro
 
 //Procedimentos
 
