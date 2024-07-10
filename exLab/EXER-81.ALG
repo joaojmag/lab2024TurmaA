@@ -37,7 +37,7 @@ Inicio
    fimPara
    
    escreval ("_________")
-         escreval ("A maior idade digitada foi: ", maiorIdade)
+   escreval ("A maior idade digitada foi: ", maiorIdade)
    para contador de 1 ate 8 faca
       se (posicao[contador] = maiorIdade) entao
          escreval ("Posição [", contador, "]")
