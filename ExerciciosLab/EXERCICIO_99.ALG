@@ -3,7 +3,7 @@ Algoritmo "exercicio_99"
 
 var
 
-   A, B, potencial, i: inteiro
+   A, B, potencial, i: real
 
 // procedimentos
 
@@ -23,30 +23,11 @@ FimProcedimento
 
 // funções
 
-Funcao Potencia(X,Y: inteiro) : inteiro
-var a: inteiro
+Funcao Potencia(X,Y: inteiro) : real
 Inicio
 
-      potencial <- 0
+      Retorne X^Y
 
-      Se (Y = 0) entao
-         potencial <- 1
-         retorne potencial
-      fimSe
-
-      Se (Y = 1) entao
-         potencial <- X * 1
-      fimSe
-
-      Se (Y >= 2) entao
-         Para i <- 1 ate Y faca
-                a <- X * X
-                potencial <- potencial + a
-         fimPara
-      fimSe
-
-      Retorne potencial
-      
 FimFuncao
 Inicio
 
@@ -57,7 +38,7 @@ Inicio
       pulaLinha()
       cursor()
       potencial <- Potencia(A,B)
-      EscrevaL("A POTÊNCIA DE", A, " ELEVADO A",B, " É:", potencial)
+      EscrevaL("A POTÊNCIA DE", A, " ELEVADO A", B, " É:", potencial)
       cursor()9
 
 
