@@ -43,11 +43,16 @@ Inicio
          potencial <- X * 1
       FimSe
       
-      Se ( Y >= 2 ) entao
+      Se ( Y = 2 ) entao
+         potencial <- X * X
+      FimSe
+      
+      Se ( Y >= 3 ) entao
       
          Para i <- 1 ate Y faca
+                potencial <- X
                 a <- X * X
-                potencial <- potencial + a
+                potencial <- potencial * a
          FimPara
       FimSe
       
