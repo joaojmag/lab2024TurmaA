@@ -4,16 +4,16 @@ Var
    contador, sexo, mulher: inteiro
    nome: caractere
    salario: real
-   posicaoNome: vetor[1..3] de caractere
-   posicaoSexo: vetor[1..3] de inteiro
-   posicaoSalario: vetor[1..3] de real
+   posicaoNome: vetor[1..5] de caractere
+   posicaoSexo: vetor[1..5] de inteiro
+   posicaoSalario: vetor[1..5] de real
 
 Inicio
    escreval ("VETORES - FUNCIONÁRIOS")
    contador <- 1
    mulher <- 0
    
-   Enquanto (contador <= 3)  faca
+   Enquanto (contador <= 5)  faca
       escreval ("Digite o ", contador, "° nome:")
       leia (nome)
       escrevaL ("Digite seu sexo:")
@@ -50,7 +50,7 @@ Inicio
       escreval ("Nenhuma mulher ganha mais que 5 mil.")
    fimSe
       
-   para contador de 1 ate 3 faca
+   para contador de 1 ate 5 faca
       se (posicaoSexo[contador] = 1) e (posicaoSalario[contador] >= 5000) entao
             escreval (posicaoNome[contador], " ganha: R$" , posicaoSalario[contador])
             escreval ("Posicao: [", contador, "]")
