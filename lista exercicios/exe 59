@@ -1,0 +1,81 @@
+Algoritmo "exe 59"
+
+
+Var
+sexo,continuar:caracter
+idade,maior,homens,idades,menor:inteiro
+media:real
+entrar:logico
+entrarf:logico
+
+Inicio
+entrarf <- verdadeiro
+entrar <- verdadeiro
+
+Enquanto ( continuar <> "nao") Faca
+
+   escreva ("Digite sua idade : ")
+   leia (idade)
+
+   escreva(" Digite seu sexo  : ")
+   leia(sexo)
+         //idade verdadeiro - falso
+
+      se entrar  entao
+         maior <- idade
+         entrar <- Falso
+      FimSe
+       
+
+           //idade
+       se (idade >  maior)entao
+            maior <- idade
+
+       FimSe
+
+             //quantidade homens
+           se (sexo = "M") ou (sexo = "m")entao
+            homens <- homens + 1
+              FimSe
+
+
+
+               idades <-  idade + idades
+               //media
+          se (sexo = "M") ou (sexo = "m")entao
+           media <-  idades / homens
+
+          FimSe
+
+
+          //condiçao
+         escreval("deseja continuar ? ")
+         leia(continuar)
+         
+         
+         //maisnova
+
+          se entrarf entao
+            menor <- idade
+            entrarf <- Falso
+          senao
+          se idade <  menor entao
+            menor <- idade
+
+
+          FimSe
+          FimSe
+FimEnquanto
+
+
+escreval("essa é a maior idade ", maior  )
+escreval("sao "  , homens  , " homens no total")
+escreval("A media de idade dos homens é : " , media )
+escreval("a mulher mais jovem é tem  " , menor , "anos ")
+
+
+
+
+Fimalgoritmo
+
+FimSe

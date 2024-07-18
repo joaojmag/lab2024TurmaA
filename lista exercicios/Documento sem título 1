@@ -1,0 +1,26 @@
+
+Algoritmo "exe56"
+
+Var
+num,valcont,cont,soma:inteiro
+
+
+Inicio
+cont <- 1
+Enquanto (num <> 1111 ) faca
+
+   escreva(" digite algum número : ")
+   leia(num)
+   se ( num <> 1111) entao
+      soma <- soma + num
+   cont <-cont + 1
+     FimSe
+
+
+
+
+FimEnquanto
+
+       escreval(" A soma é ", soma )
+Fimalgoritmo
+

@@ -1,0 +1,67 @@
+Algoritmo "semnome"
+
+var
+nome,sexo,continuar:caracter
+idade,maior,menor,nomes,idades,trinta:inteiro
+media:real
+entrar:logico
+
+
+
+Inicio
+entrar <- verdadeiro
+
+enquanto (continuar <> "N") faca
+
+   escreval(" ________________________________________")
+   escreva ( " Digite seu sexo = F ou M  : ")
+   leia( sexo )
+   escreval(" ________________________________________")
+   escreva ( " Digite seu nome : ")
+   leia( nome )
+   escreval(" ________________________________________")
+   escreva  (" Digite sua idade : ")
+   leia( idade )
+   escreval(" ________________________________________")
+   escreva ("Deseja conntinuar = S(sim )_N(não) :")
+   leia(continuar)
+    escreval(" ________________________________________")
+
+
+
+
+
+
+     //pessoa mais velha
+
+      se entrar  entao
+         maior <- idade
+         entrar <- falso
+      fimse
+
+
+           //idade
+       se (idade >  maior)entao
+            maior <- idade
+
+
+         fimse
+         
+              //MEDIA
+
+   nomes <- nomes + 1
+   idades <-  idade + idades
+   media <-  idades / nomes
+   
+   //homem +30
+   
+   se (sexo = " m ")ou (sexo = " M ")e (idade >= 30) entao
+    trinta <- trinta + 1
+          
+ fimenquanto
+escreval(" O nome da pessoa mais velha é " , nome ,"  e a idade dela é " , maior)
+escreval( " A média é " , media )
+escreval(trinta , "homens te mais de 30 anos ")
+
+ Fimalgoritmo
+
