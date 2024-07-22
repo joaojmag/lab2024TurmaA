@@ -1,4 +1,4 @@
-algoritmo "ATIVIDADE5"
+algoritmo "ATIVIDADE 5"
 var
 Nota1:real
 Nota2:real
