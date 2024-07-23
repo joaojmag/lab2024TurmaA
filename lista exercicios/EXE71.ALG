@@ -1,21 +1,23 @@
-Algoritmo "exe71"
+algoritmo "71"
+var
+valores: vetor[0..7] de inteiro
+i: inteiro
 
 
-Var
-v:vetor[1..8]de inteiro
-c:inteiro
-Inicio
+inicio
+
+para i de 0 ate 7 faca
+      valores[i] <- 999
+fimpara
 
 
-    para c <- 1 ate 8 faca
-      escreva("digite o " ,c, "o. valor:")
-      leia (v[c])
+para i de 0 ate 7 faca
+      escreva(valores[i], " ")
+fimpara
+escreval("")
 
-    FimPara
+   para i de 0 ate 7 faca
+      escreva(i, "   ")
+   fimpara
 
-
-   para c <- 1 ate 8  faca
-    escreva("{" , v[c] , "}")
-
-   FimPara
-Fimalgoritmo
+fimalgoritmo
