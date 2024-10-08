@@ -1,4 +1,4 @@
-/* //querySelector e querySelectorAll
+//querySelector e querySelectorAll
 const divTodas = [...document.getElementsByTagName("div")]
 const cursosTodos = [...document.getElementsByClassName("curso")]
 const cursosC1 = [...document.getElementsByClassName("c1")]
@@ -19,6 +19,6 @@ let d1 = document.getElementById ("c8")
 d1.map((elemento) => {
     elemento.classList.add("destaque")
     //d1.innerHTML = ("Marcela Esteves") 
-})  */
+}) 
 
 

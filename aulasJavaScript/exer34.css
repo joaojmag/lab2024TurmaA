@@ -20,6 +20,11 @@
     color: white;
 }
 .destaque {
-    background-color: green !important;
+    background-color: red !important;
     color: white !important;
+}
+.mundando {
+    background-color: rgb(48, 177, 48)  !important;
+    color: white !important
+    ;
 }
