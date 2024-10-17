@@ -1,0 +1,34 @@
+main{
+    display: flex;
+} 
+
+.destaque {
+    background-color: red !important;
+    color: white !important;
+}
+.classeObjeto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px 0px;
+    width: 200px;
+    height: 38px;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+}
+.classeGeral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px 0px;
+    width: 200px;
+    height: 38px;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+}
+.mudar{
+    background-color: yellow !important;
+    color: white !important;
+}

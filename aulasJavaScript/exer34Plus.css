@@ -6,10 +6,6 @@ main{
     background-color: red !important;
     color: white !important;
 }
-.mundando {
-    background-color: rgb(48, 177, 48)  !important;
-    color: white !important;
-}
 .inp{
     justify-content: center;
     border: 4px solid rgb(47, 123, 126);
