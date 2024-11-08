@@ -4,11 +4,14 @@ const btnSalvar = document.getElementById("btnSalvar")
 const caixa = document.querySelector(".caixa")
 const caixaSpan = document.getElementById("caixaSpan")
 const caixaFiltrados = document.querySelector("#caixaFiltrados")
+
 let contador = 0;
 let pessoas = []
 let idClicado = null
 
+
 caixa.style.display = 'none';
+
 
 function elementoEditar(id = null) {
     caixa.style.display = 'block'
@@ -80,9 +83,11 @@ btnSalvar.addEventListener("click", () => {
 
         inputNome.value = ""
         inputIdade.value = ""
-    } else {
-        alert("Campo vazio")
+    } else if(inputNome.value == ""){
+        alert("Campo nome está vazio")
 
+    }else if(inputIdade.value == ""){
+        alert("Campo idade está vazio")
     }
 
 })
@@ -104,12 +109,10 @@ const filtro = ()=>{
     let comparativo = filtragem.normalize('NFD').toLowerCase();
     caixaFiltrados.innerHTML = ''
 
-    let filtrados = pessoas.filter (e => e.nome.includes(comparativo ) )
+    let filtrados = pessoas.filter (e => e.nome.normalize('NFD').toLowerCase().includes(comparativo ) )
     caixaSpan.style.display='none'
     
     criarElementoFiltro(filtrados)
-    
-
 
     filtroInput.value = ""
 }

@@ -7,7 +7,7 @@ const todosNomes = [...document.querySelectorAll(".classeGeral")]
 
 let entrada = [
     {
-        nome: "Erika",
+        nome: "Erika ",
         coordenador: false
     },
     {
@@ -60,8 +60,7 @@ btnAdicionar.addEventListener("click", (e) => {
 
     nomeAdicionado.value = ""
 })
-/* 
-todosNomes.map((el) => {
+
+/* todosNomes.map((el) => {
     
 }) */
-
