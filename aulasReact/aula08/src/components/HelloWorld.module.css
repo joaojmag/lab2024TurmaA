@@ -1,0 +1,9 @@
+.worldContainer {
+    background-color: rgb(18, 106, 133);
+    border: 3px solid rgb(1, 72, 94);
+}
+.worldContent{
+    color: white;
+    background-color: rgb(13, 113, 143);
+    margin: 0px;
+}

@@ -1,0 +1,9 @@
+body {
+  padding: 50px;
+  background-color: rgba(109, 156, 245, 0.589);
+}
+
+p {
+  background-color: darkcyan;
+  padding: 10px;
+}
