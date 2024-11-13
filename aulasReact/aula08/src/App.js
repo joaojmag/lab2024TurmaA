@@ -1,10 +1,11 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
-import SayMyName from './components/SayMyName';
-import Pessaoas from './components/Pessoa';
-import List from './components/List';
+import HelloWorld from './components/basicoReact/HelloWorld';
+import SayMyName from './components/basicoReact/SayMyName';
+import Pessaoas from './components/basicoReact/Pessoa';
+import List from './components/basicoReact/List';
 import Evento from './components/Evento';
 import  Form from './components/Form';
+import Condicional from './components/evento/Condicional';
 
 function App() {
   return (
@@ -20,10 +21,9 @@ function App() {
       />
   
       <List/>
-
-      <Evento/>
-
-
+      <Evento numero='11'/>
+      <Form/>
+      <Condicional/>
     </div>
   );
 }
