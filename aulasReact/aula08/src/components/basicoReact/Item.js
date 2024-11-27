@@ -15,11 +15,10 @@ Item.propTypes = {
     lancamento: PropTypes.number,
 }
 
-/* Item.defaultProps = {
-    marca: "Faltou a marca",
+Item.defaultProps = {
+    marca: "Não tem marca",
     lancamento: 0,
-} */
-
+}
 
 
 export default Item

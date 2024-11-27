@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Form() {
-    const [nome, setNome] = useState("Erika")
+    const [nome, setNome] = useState()
     const [senha, setSenha] =  useState()
     
     function cadastrarUsuario(e) {

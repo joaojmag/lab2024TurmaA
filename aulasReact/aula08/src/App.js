@@ -1,29 +1,36 @@
 import './App.css';
-import HelloWorld from './components/basicoReact/HelloWorld';
-import SayMyName from './components/basicoReact/SayMyName';
-import Pessaoas from './components/basicoReact/Pessoa';
-import List from './components/basicoReact/List';
-import Evento from './components/Evento';
-import  Form from './components/Form';
-import Condicional from './components/evento/Condicional';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import Empresa from './pages/Empresa';
+import Contato from './pages/Contato';
+import NavBar from './components/layouts/NavBar';
+import Footer from './components/layouts/Footer';
 
 function App() {
+
   return (
     <div className='App' >
-      <HelloWorld />
-      <SayMyName nome="Julia" />
+      <Router>
+        <NavBar/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route exact path="/">
+            <Home />
+          </Route>  */}
 
-      <Pessaoas
-        nome="Erika"
-        idade="18"
-        profissao="Front-end"
-        foto="https://media.licdn.com/dms/image/v2/C4E0BAQFmCRTiAaDZrw/company-logo_200_200/company-logo_200_200/0/1656687183923/youx_group_logo?e=2147483647&v=beta&t=Cc-ySXJ7zozd9wdTusVK35l3MV-FqxnIE97nJdT5hO4"
-      />
-  
-      <List/>
-      <Evento numero='11'/>
-      <Form/>
-      <Condicional/>
+          <Route path="/empresa" element={<Empresa />} />
+          {/* <Route path="/empresa">
+            <Empresa />
+          </Route> */}
+
+          <Route path="/contato" element={<Contato />} />
+
+          {/* <Route path="/contato">
+            <Contato />
+          </Route> */}
+        </Routes>
+        <Footer/>
+      </Router>
     </div>
   );
 }

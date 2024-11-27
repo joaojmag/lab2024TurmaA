@@ -8,6 +8,7 @@ function List (){
             <li>Item 1</li>
             <Item marca="BMW" lancamento={1985}/>
             <Item marca="Jeep" lancamento={2006}/>
+            <Item/>
         </ul>
     </>
  )   
